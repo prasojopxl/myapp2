@@ -1,0 +1,10 @@
+.header {
+    background: #F6F5F4;
+}
+
+.container {
+    min-height: 20px;
+    max-width: 1180px;
+    margin: 0 auto;
+    padding: 20px;
+}
