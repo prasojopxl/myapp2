@@ -7,4 +7,23 @@
     max-width: 1180px;
     margin: 0 auto;
     padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.mainmenu {
+    display: flex;
+    margin-left: 50px;
+}
+
+.mainmenu li {
+    list-style: none;
+}
+
+.mainmenu li a {
+    padding: 0 15px;
+}
+
+.left {
+    display: flex;
 }
