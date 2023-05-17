@@ -3,6 +3,7 @@ import React from 'react'
 import "./style.css";
 import Link from 'next/link';
 import { FaArrowRight } from "react-icons/fa";
+import { FaAngleDown } from "react-icons/fa";
 
 export default function Header() {
   return (
@@ -12,9 +13,9 @@ export default function Header() {
           <Link href="/"><Image src="/images/logo.png" width={130} height={17}/></Link>
           <ul className="mainmenu">
             <li><Link href="/">Home</Link></li>
-            <li><Link href="/">Textbook</Link></li>
-            <li><Link href="/">Statistics</Link></li>
-            <li><Link href="/">Games</Link></li>
+            <li><Link href="/about">About</Link></li>
+            <li><Link href="/products">Products</Link></li>
+            <li><Link href="/">Games <FaAngleDown/></Link></li>
           </ul>
         </div>
         <div className="right">

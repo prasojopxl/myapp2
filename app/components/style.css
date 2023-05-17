@@ -23,6 +23,8 @@
 
 .mainmenu li a {
     padding: 0 15px;
+    display: flex;
+    align-items: center;
 }
 
 .left {
@@ -48,4 +50,53 @@
     font-weight: bold;
     display: flex;
     align-items: center;
+}
+
+.footer {
+    background: #F6F5F4;
+    min-height: 50px;
+}
+
+.footmenu {
+    display: flex;
+}
+
+.footmenu li {
+    list-style: none;
+}
+
+.footmenu li a {
+    padding: 3px 10px;
+    display: block;
+}
+
+.footmenu li:first-child a {
+    padding-left: 0;
+}
+
+.footer .top{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.footer .bottom {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 20px;
+    border-top: #E0E0E0 solid 2px;
+    padding-top: 30px;
+}
+
+.footer .container {
+    display: block;
+}
+
+.footer .bottom a {
+    margin-right: 10px;
+}
+
+.copyright {
+    font-size: 12px;
 }
