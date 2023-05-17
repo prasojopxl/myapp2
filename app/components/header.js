@@ -2,6 +2,7 @@ import Image from 'next/image'
 import React from 'react'
 import "./style.css";
 import Link from 'next/link';
+import { FaArrowRight } from "react-icons/fa";
 
 export default function Header() {
   return (
@@ -17,13 +18,11 @@ export default function Header() {
           </ul>
         </div>
         <div className="right">
-          <Link href="/" className="username">
-			<Image src="/images/alex.png" width={40} height={40} alt="name"/>
-			Alex
-		  </Link>
-		  <div>
-			<Link href="/" className="bold">Sign Out</Link>
-		  </div>
+			<Link href="/" className="username">
+				<Image src="/images/alex.png" width={42} height={40} alt="image profile" />
+				Alex
+			</Link>
+			<Link href="/" className="signout">Sign Out <FaArrowRight/></Link>
         </div>
       </div>
     </div>

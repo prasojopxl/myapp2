@@ -37,13 +37,15 @@
 .username {
     display: flex;
     align-items: center;
-    margin-right: 30px;
+    margin-right: 20px;
 }
 
 .username img {
-    margin-right: 10px;
+    margin-right: 7px;
 }
 
-.bold {
+.signout {
     font-weight: bold;
+    display: flex;
+    align-items: center;
 }
