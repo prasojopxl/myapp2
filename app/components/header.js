@@ -8,7 +8,7 @@ export default function Header() {
     <div className="header">
       <div className="container">
         <div className="left">
-          <Image src="/images/logo.png" width={130} height={17}/>
+          <Link href="/"><Image src="/images/logo.png" width={130} height={17}/></Link>
           <ul className="mainmenu">
             <li><Link href="/">Home</Link></li>
             <li><Link href="/">Textbook</Link></li>
@@ -17,7 +17,13 @@ export default function Header() {
           </ul>
         </div>
         <div className="right">
-          kanan
+          <Link href="/" className="username">
+			<Image src="/images/alex.png" width={40} height={40} alt="name"/>
+			Alex
+		  </Link>
+		  <div>
+			<Link href="/" className="bold">Sign Out</Link>
+		  </div>
         </div>
       </div>
     </div>

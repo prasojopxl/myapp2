@@ -9,6 +9,7 @@
     padding: 20px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .mainmenu {
@@ -26,4 +27,23 @@
 
 .left {
     display: flex;
+}
+
+.right {
+    display: flex;
+    align-items: center;
+}
+
+.username {
+    display: flex;
+    align-items: center;
+    margin-right: 30px;
+}
+
+.username img {
+    margin-right: 10px;
+}
+
+.bold {
+    font-weight: bold;
 }
